@@ -1,10 +1,10 @@
 import java.text.DecimalFormat;
 public class Receipt {
     public static void main(String[] args) {
-        System.out.println(" ");
+        System.out.println("-------------");
         String customerName = "Stacey";
         System.out.println("Customer name: " + customerName);
-        System.out.println(" ");
+        System.out.println("-------------");
 
         int applesPurchased = 12;
         double applePrice = 0.6;
@@ -39,5 +39,6 @@ public class Receipt {
         double change = tender - totalCost;
         String changeRounded = df.format(change);
         System.out.println("Change: $" + changeRounded);
+        System.out.println("-------------");
     }
 }
